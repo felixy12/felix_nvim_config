@@ -32,4 +32,8 @@ More hotkeys are given here: https://github.com/VonHeikemen/lsp-zero.nvim
 5. For any warnings or errors, hover over the line and press `gl`.
 
 ### Within-File Navigation
-1. 
+1. `EasyMotion`: Pressing `<Leader><Leader><movement key>` to select how many times you want to use the movement key.
+2. Move up and down half a page with `Ctrl-u` and `Ctrl-d` (where `-` means holding down the key).
+
+### Unused Functions
+1. `Harpoon`: "Harpoon" any file with `<Leader>a`. Open window of "harpooned" files with `Ctrl-e`, and go to the file with the number index. I prefer the Misc Remaps.
