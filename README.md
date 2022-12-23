@@ -37,3 +37,4 @@ More hotkeys are given here: https://github.com/VonHeikemen/lsp-zero.nvim
 
 ### Unused Functions
 1. `Harpoon`: "Harpoon" any file with `<Leader>a`. Open window of "harpooned" files with `Ctrl-e`, and go to the file with the number index. I prefer the Misc Remaps.
+2. `UndoTree`: Fancier file change tracker. Toggle the menu with `<Leader>u`. It's pretty sweet, but I'm too lazy to learn it.
