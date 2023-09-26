@@ -7,10 +7,10 @@ Set up of all Neovim stuff for me. Also includes a binary of neovim in the repo.
 3. Copy the following alias into the `.bashrc`: `alias vi='~/.config/vim/nvim.appimage'` and source the file
 4. Install neovim packer: 
    ```
-   git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+   git clone --depth 1 https://github.com/wbthomason/packer.nvim \
    ~/.local/share/nvim/site/pack/packer/start/packer.nvim
    ```
-5. Install all plugins using Packer. open `~.config/nvim/lua/felix_settings/packer.lua` with `vi`. 
+5. Install all plugins using Packer. open `~/.config/nvim/lua/felix_settings/packer.lua` with `vi`. 
 Note that this is gonna give you a ton of errors. Ignore those. In the editor (normal mode), type `:so<Enter>` then `:PackerSync`. This will install all plugins.
 6. Install `ripgrep` with `sudo apt-get install ripgrep` for `telescope`.
 7. Install python language servers. In neovim, type `:Mason<Enter>`, and in the `LSP` tab, install `jedi-language-server` and `python-lsp-server`. Install by hovering and pressing `i`.
