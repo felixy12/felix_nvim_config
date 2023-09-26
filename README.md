@@ -4,7 +4,7 @@ Set up of all Neovim stuff for me. Also includes a binary of neovim in the repo.
 ## Installation procedure:
 1. Create repository `~/.config`
 2. Clone this repo into `~./config` and rename it to `nvim`.
-3. Copy the following alias into the `.bashrc`: `alias vi='~/.config/vim/nvim.appimage'` and source the file
+3. Copy the following alias into the `.bashrc`: `alias vi='~/.config/nvim/nvim.appimage'` and source the file
 4. Install neovim packer: 
    ```
    git clone --depth 1 https://github.com/wbthomason/packer.nvim \
